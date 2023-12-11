@@ -13,14 +13,20 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4" id="excusa">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <button id="generateButton">Generate Excuse</button>
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-1 fw-bold text-body-emphasis">You'll think im joking but...</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 display-5" id="excusa"></p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button
+          onClick="window.location.reload();"
+          type="button"
+          class="btn btn-primary btn-lg px-4 gap-3"
+          url=""
+        >
+          Give me another one!
+        </button>
+      </div>
       <div class="fixed-bottom p-4">
         Made with ❤️ by
         <a href="https://www.4geeksacademy.com">4Geeks Academy</a>

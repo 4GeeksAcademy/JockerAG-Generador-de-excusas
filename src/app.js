@@ -25,16 +25,5 @@ window.onload = function() {
 
     return `${randomQuien} ${randomAccion} ${randomQue} ${randomCuando}`;
   }
-
-  function generateAndSetExcuse() {
-    document.getElementById("excusa").innerHTML = generateExcuse();
-  }
-  generateAndSetExcuse();
-  console.log("Hello Rigo from the console!");
-
-  document
-    .getElementById("generateButton")
-    .addEventListener("click", function() {
-      document.getElementById("excusa").innerHTML = generateExcuse();
-    });
+  document.getElementById("excusa").innerHTML = generateExcuse();
 };
